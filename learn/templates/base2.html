@@ -1,0 +1,88 @@
+{% extends 'index2.html' %}
+{% block title %}Home2{% endblock %}
+{% block body %}
+<html>
+<style>
+body{
+  background: url(/static/images/back.jfif) no-repeat center center fixed;
+  background-size: cover;
+ }
+ .grp1{
+    width: 300px;
+    height: 200px;
+    /* padding: 120px;  */
+    text-align: center;
+    border-radius:20px;
+    background-color: rgb(99, 209, 240);
+    position: absolute;
+    left: 100px;
+    opacity:0.8;
+    text-align: 3.0;
+}
+.grp2{
+    top:300px;
+    width: 300px;
+    height: 200px;
+    /* padding: 120px;  */
+    text-align: center;
+    border-radius:20px;
+    background-color: rgb(99, 209, 240);
+    position: absolute;
+    left: 100px;
+    opacity:0.8;
+    text-align: 3.0;
+}
+.grp3{
+    top:525px;
+    width: 300px;
+    height: 200px;
+    /* padding: 120px;  */
+    text-align: center;
+    border-radius:20px;
+    background-color: rgb(99, 209, 240);
+    position: absolute;
+    left: 100px;
+    opacity:0.8;
+    text-align: 3.0;
+}
+.grp4{
+    top:750px;
+    width: 300px;
+    height: 200px;
+    /* padding: 120px;  */
+    text-align: center;
+    border-radius:20px;
+    background-color: rgb(99, 209, 240);
+    position: absolute;
+    left: 100px;
+    opacity:0.8;
+    text-align: 3.0;
+}
+
+</style>
+<body>
+<div>
+<div class="grp1">
+   <a href="/movies"> <h3 id="" >Movies</h3></a>
+    <img src="/static/images/movie.jpg" width="200" height="140"  class="grppic1">
+  <br><br>
+</div>
+<div class="grp2">
+    <a href="/music"> <h3 id="grp2m" >Music Concert</h3></a>
+    <img src="/static/images/music.jpg" width="200" height="140"  class="grppic2">
+  <br><br>
+</div>
+<div class="grp3">
+    <a href="/marriage">  <h3 id="grp3m" >Marriage</h3></a>
+    <img src="/static/images/mar.png" width="200" height="140"  class="grppic3">
+  <br><br>
+</div>
+<div class="grp4">
+    <a href="/catering">  <h3 id="grp4m">Catering</h3></a>
+    <img src="/static/images/cat.jfif" width="200" height="140"  class="grppic4">
+  <br><br>
+</div>
+</div>
+</body>
+</html>
+{% endblock %}
